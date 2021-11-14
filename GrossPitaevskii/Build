@@ -1,0 +1,1 @@
+g++ -O3 -o Run GPBlocks.cpp VortexState.cpp ../Mesh/DelaunayMesh.cpp ../Mesh/BuilderMesh.cpp ../Mesh/Mesh.cpp ../Output/Text.cpp ../Output/Picture.cpp ../Types/Random.cpp

@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+- family-names: "Kivioja"
+  given-names: "Markus"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+- family-names: "Räbinä"
+  given-names: "Jukka"
+  orcid: "https://orcid.org/0000-0000-0000-0000"
+title: "GPU-accelerated DEC-based Gross-Pitaevskii solver"
+version: 0.1.0
+doi: 10.5281/zenodo.1234
+date-released: 2021-11-14
+url: "https://github.com/markus-kivioja/GpuDecGpe"

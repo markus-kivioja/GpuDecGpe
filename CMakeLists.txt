@@ -1,0 +1,17 @@
+cmake_minimum_required(VERSION 3.18)
+project(SpaceTime)
+
+set(CMAKE_CUDA_ARCHITECTURES 52)
+
+add_subdirectory(Mesh)
+add_subdirectory(Output)
+add_subdirectory(Types)
+
+add_subdirectory(GrossPitaevskii)
+add_subdirectory(GrossPitaevskiiGpuCube)
+add_subdirectory(GrossPitaevskiiGpuBcc)
+add_subdirectory(GrossPitaevskiiGpuC15)
+add_subdirectory(GrossPitaevskiiGpuA15)
+add_subdirectory(GrossPitaevskiiGpuFcc)
+add_subdirectory(GrossPitaevskiiGpuZ)
+add_subdirectory(GrossPitaevskiiMultiGpu)
